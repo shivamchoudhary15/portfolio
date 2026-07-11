@@ -493,117 +493,90 @@
         <h2 class="section__title">Projects</h2>
         <span class="section__subtitle">Most recent work</span>
 
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!-- ------------------------portfollio 1-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-  <img src="assets/img/Shubhkarya.png" alt="Shubhkarya Project" class="portfolio__img" />
+        <div class="projects__grid container">
 
-  <div class="portfolio__data">
-    <h3 class="portfolio__title">
-      Shubhkarya – Pandit Booking Platform
-    </h3>
-
-    <p class="portfolio__description">
-      Shubhkarya is a full-stack web platform that allows users to book verified pandits for various poojas and religious ceremonies. 
-      It features role-based dashboards for users, pandits, and admins, ensuring trust, availability tracking, and seamless booking experience.
-    </p>
-
-    <a href="https://github.com/shivamchoudhary15/backendserver"
-       class="button button--flex button--small portfolio__button" target="_blank">
-      GitHub Repository
-      <i class="uil uil-external-link-alt button__icon"></i>
-    </a>
-
-    <a href="https://bejewelled-beignet-847089.netlify.app/"
-       class="button button--flex button--small portfolio__button" target="_blank">
-      See Live
-      <i class="uil uil-external-link-alt button__icon"></i>
-    </a>
-  </div>
-</div>
-
-            <!-- ------------------------portfolio 2: Tic-Tac-Toe-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/tic-tak-toe.png" alt="Tic Tac Toe Project" class="portfolio__img" />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Tic-Tac-Toe Game</h3>
-                <p class="portfolio__description">
-                  A fun and interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
-                  Features two-player mode, win detection, draw handling, and a reset option for a smooth gaming experience.
-                </p>
-                <a href="https://github.com/shivamchoudhary15"
-                   class="button button--flex button--small portfolio__button" target="_blank">
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a href="https://brilliant-sawine-05ac07.netlify.app/"
-                   class="button button--flex button--small portfolio__button" target="_blank">
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
+          <!-- Project 1: Shubhkarya -->
+          <div class="project__card">
+            <div class="project__img-wrap">
+              <img src="assets/img/Shubhkarya.png" alt="Shubhkarya Project" class="project__img" />
+              <div class="project__overlay">
+                <a href="https://bejewelled-beignet-847089.netlify.app/" target="_blank" class="project__overlay-btn">View Live ↗</a>
               </div>
             </div>
-
-            <!-- ------------------------portfolio 3: Rock-Paper-Scissors-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/stone-paper-scissors.png" alt="Rock Paper Scissors Project" class="portfolio__img" />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Rock-Paper-Scissors Game</h3>
-                <p class="portfolio__description">
-                  A classic Rock-Paper-Scissors game built using HTML, CSS, and JavaScript.
-                  Play against the computer with real-time score tracking, animated results,
-                  and an intuitive interface for an engaging experience.
-                </p>
-                <a href="https://github.com/shivamchoudhary15"
-                   class="button button--flex button--small portfolio__button" target="_blank">
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a href="https://celebrated-hotteok-ddcd4e.netlify.app/"
-                   class="button button--flex button--small portfolio__button" target="_blank">
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
+            <div class="project__info">
+              <h3 class="project__title">Shubhkarya – Pandit Booking Platform</h3>
+              <p class="project__desc">A full-stack web platform to book verified pandits for poojas and religious ceremonies. Features role-based dashboards for users, pandits & admins.</p>
+              <div class="project__tags">
+                <span class="project__tag">Node.js</span>
+                <span class="project__tag">MongoDB</span>
+                <span class="project__tag">Express</span>
+                <span class="project__tag">React</span>
               </div>
-            </div>
-
-            <!-- ------------------------portfollio 3--------------------
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio2.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Spotify-Clone</h3>
-                <p class="portfolio__description">
-                  Spotify Clone is a web app developed using HTML, CSS, and
-                  JavaScript. It recreates Spotify's interface and features,
-                  allowing users to browse, search, and play songs, create
-                  playlists, and discover new music. Responsive design ensures a
-                  seamless experience on any device. Contributions are welcome!
-                </p>
-                <a
-                  href="https://github.com/Venkateeshh/Spotify-Clone"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
+              <div class="project__links">
+                <a href="https://github.com/shivamchoudhary15/backendserver" target="_blank" class="project__link project__link--github">
+                  <i class="uil uil-github"></i> GitHub
                 </a>
-                <a
-                  href="https://venkateeshh.github.io/Spotify-Clone/"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
+                <a href="https://bejewelled-beignet-847089.netlify.app/" target="_blank" class="project__link project__link--live">
+                  <i class="uil uil-external-link-alt"></i> See Live
                 </a>
               </div>
             </div>
           </div>
-        -->
-           
-                
 
-          <!-- add pagination -->
-          <div class="swiper-pagination"></div>
+          <!-- Project 2: Tic-Tac-Toe -->
+          <div class="project__card">
+            <div class="project__img-wrap">
+              <img src="assets/img/tic-tak-toe.png" alt="Tic Tac Toe" class="project__img" />
+              <div class="project__overlay">
+                <a href="https://brilliant-sawine-05ac07.netlify.app/" target="_blank" class="project__overlay-btn">View Live ↗</a>
+              </div>
+            </div>
+            <div class="project__info">
+              <h3 class="project__title">Tic-Tac-Toe Game</h3>
+              <p class="project__desc">A fun two-player Tic-Tac-Toe game with win detection, draw handling, score tracking and a clean modern UI built with vanilla web tech.</p>
+              <div class="project__tags">
+                <span class="project__tag">HTML</span>
+                <span class="project__tag">CSS</span>
+                <span class="project__tag">JavaScript</span>
+              </div>
+              <div class="project__links">
+                <a href="https://github.com/shivamchoudhary15" target="_blank" class="project__link project__link--github">
+                  <i class="uil uil-github"></i> GitHub
+                </a>
+                <a href="https://brilliant-sawine-05ac07.netlify.app/" target="_blank" class="project__link project__link--live">
+                  <i class="uil uil-external-link-alt"></i> See Live
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Rock-Paper-Scissors -->
+          <div class="project__card">
+            <div class="project__img-wrap">
+              <img src="assets/img/stone-paper-scissors.png" alt="Rock Paper Scissors" class="project__img" />
+              <div class="project__overlay">
+                <a href="https://celebrated-hotteok-ddcd4e.netlify.app/" target="_blank" class="project__overlay-btn">View Live ↗</a>
+              </div>
+            </div>
+            <div class="project__info">
+              <h3 class="project__title">Rock-Paper-Scissors Game</h3>
+              <p class="project__desc">Play against the computer with real-time score tracking, animated results and an intuitive interface for an engaging gaming experience.</p>
+              <div class="project__tags">
+                <span class="project__tag">HTML</span>
+                <span class="project__tag">CSS</span>
+                <span class="project__tag">JavaScript</span>
+              </div>
+              <div class="project__links">
+                <a href="https://github.com/shivamchoudhary15" target="_blank" class="project__link project__link--github">
+                  <i class="uil uil-github"></i> GitHub
+                </a>
+                <a href="https://celebrated-hotteok-ddcd4e.netlify.app/" target="_blank" class="project__link project__link--live">
+                  <i class="uil uil-external-link-alt"></i> See Live
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
