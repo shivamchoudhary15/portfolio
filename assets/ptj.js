@@ -88,15 +88,17 @@ modalCloses.forEach((modalClose) => {
 /*======================= Portfolio Swiper ===================*/
 var swiper = new Swiper(".portfolio__container", {
   loop: true,
-  spaceBetween: 24,
+  spaceBetween: 20,
   slidesPerView: 1,
 
   breakpoints: {
     768: {
       slidesPerView: 2,
+      spaceBetween: 20,
     },
     1024: {
       slidesPerView: 3,
+      spaceBetween: 24,
     },
   },
 
