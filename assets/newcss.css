@@ -700,11 +700,11 @@ img {
 }
 /*need change*/
 .portfolio__content {
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 .portfolio__img {
   width: 100%;
-  height: 180px;
+  height: 260px;
   object-fit: cover;
   border-radius: 0.5rem;
   justify-self: center;
@@ -1185,7 +1185,7 @@ img {
 
 .portfolio__img {
   width: 100%;
-  height: 180px;
+  height: 280px;
   object-fit: cover;
   border-radius: 0.75rem;
   margin-bottom: 1rem;
