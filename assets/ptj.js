@@ -91,6 +91,13 @@ var swiper = new Swiper(".portfolio__container", {
   spaceBetween: 30,
   slidesPerView: 1,
   grabCursor: true,
+  speed: 600,
+
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
 
   navigation: {
     nextEl: ".swiper-button-next",
