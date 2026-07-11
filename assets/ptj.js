@@ -88,21 +88,17 @@ modalCloses.forEach((modalClose) => {
 /*======================= Portfolio Swiper ===================*/
 var swiper = new Swiper(".portfolio__container", {
   loop: true,
-  spaceBetween: 30,
   slidesPerView: 1,
+  speed: 4000,
   grabCursor: true,
-  speed: 600,
+  allowTouchMove: true,
 
   autoplay: {
-    delay: 3000,
+    delay: 1500,
     disableOnInteraction: false,
-    pauseOnMouseEnter: true,
+    pauseOnMouseEnter: false,
   },
 
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
